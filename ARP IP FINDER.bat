@@ -40,7 +40,7 @@ set /p range1=Type the range you want to use for the last octet [0-255] (default
 
 :loop
 
-
+echo %var1%
 if %class% == A ping %ip%.%var3%.%var2%.%var1% -n 1 -w 150
 
 if %class% == B ping %ip%.%var2%.%var1% -n 1 -w 150
